@@ -1,12 +1,12 @@
 # cloudflare-helm-proxy
 
-![deploy](https://github.com/ciiiii/cloudflare-helm-proxy/actions/workflows/deploy.yml/badge.svg)
+![deploy](https://github.com/wangming66/cloudflare-helm-proxy/actions/workflows/deploy.yml/badge.svg)
 
 A helm repo proxy run on cloudflare worker.
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-helm-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/wangming66/cloudflare-helm-proxy)
 
-> If you're looking for proxy for docker, maybe you can try [cloudflare-docker-proxy](https://github.com/ciiiii/cloudflare-docker-proxy).
+> If you're looking for proxy for docker, maybe you can try [cloudflare-docker-proxy](https://github.com/wangming66/cloudflare-docker-proxy).
 
 ## Rules example
 - request based on `${cloudflare_worker_route}/${key}` will request to `${url}`.
